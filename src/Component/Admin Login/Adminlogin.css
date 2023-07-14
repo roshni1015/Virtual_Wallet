@@ -1,0 +1,68 @@
+.adminmain
+{
+  min-width: 100%;
+  min-height: 100%;
+}
+.admintech-logo
+{
+  background-image: url(../Images/tech-alchemy.png);
+  height: 225px;
+  width: 225px;
+}
+.adminacc1 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    color: black;
+  }
+
+.adminloginform {
+  text-align: center;
+}
+
+
+
+.form {
+  height: 18.75rem;
+  /* border: 0.0625rem solid black; */
+}
+.adminerror
+{
+  color: red;
+font-size: 1rem;
+}
+.admininp1 {
+  margin-left: 1rem;
+  width: 35%;
+  border-radius: 1.875rem;
+  background-color: #CAD5E2;
+  padding: 1.00rem;
+  /* width: 31.25rem; */
+  border: none;
+  margin-bottom: 2rem;
+}
+.admininp4 {
+  width: 35%;
+  border-radius: 1.875rem;
+  background-color: #CAD5E2;
+  padding: 1.00rem;
+  /* width: 31.25rem; */
+  border: none;
+  margin-bottom: 2rem;
+}
+.admineye{
+  margin-left: -60px;
+  background-color: transparent;
+  border: none;
+}
+
+#adminsignin {
+    width: 25%;
+    border-radius: 1.875rem;
+    background-color: #383CC1;
+    padding: 1.00rem;
+    margin-top: 1rem;
+    border: none;
+    color: white;
+  }
+  
+  

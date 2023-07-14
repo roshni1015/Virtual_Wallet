@@ -1,0 +1,141 @@
+.usrmain
+{
+  min-width: 100%;
+  min-height: 100%;
+}
+.usrtech-logo
+{
+  background-image: url(../Images/tech-alchemy.png);
+  height: 225px;
+  width: 225px;
+}
+#usrcont1
+{
+  background-color: white;
+
+}
+
+.usrloginform {
+  text-align: center;
+}
+
+.usracc1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  color: black;
+}
+
+.usrform {
+  height: 18.75rem;
+}
+.usererror
+{
+  color: red;
+font-size: 1rem;}
+.usrinp1 {
+  margin-left: 1rem;
+  width: 55%;
+  border-radius: 1.875rem;
+  background-color: #CAD5E2;
+  padding: 1.00rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+.usrinp2 {
+  width: 55%;
+  border-radius: 1.875rem;
+  background-color: #CAD5E2;
+  padding: 1.00rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+.usreye{
+  margin-left: -50px;
+  border: none;
+}
+
+#usrsignin {
+    width: 25%;
+    border-radius: 1.875rem;
+    background-color: #383CC1;
+    padding: 1.00rem;
+    margin-top: 1rem;
+    border: none;
+    color: white;
+  }
+  
+  .usraccr
+  {
+    margin-top: 2rem;
+    color: black;
+  }
+  .usracccr1
+  {
+    margin-top: 1rem;
+    color: black;
+
+  }
+  
+  .usrloginform2{
+    text-align: center;
+    height: 100vh;
+    
+  }
+  #signup1234
+  {
+    color: blue;
+
+  }
+  #usrsignin2
+  {
+    color: white;
+
+  }
+  #usrcont2
+  {
+    background-color: #383CC1;
+background-image: url(../Images/image-20230619-060413.png);
+background-size: cover;
+background-position: center;
+  }
+  
+  .usrnewtxt {
+    margin-top: 8rem;
+  }
+  .usrnewtxt h1 {
+    
+    font-size: 3rem;
+    color: white;
+  }
+  .signinheadline
+  {
+    font-size: 3rem;
+    color: white;
+  }
+  .signinheadline2
+  {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: white;
+  }
+  .usrsub-txt {
+    height: 4rem;
+  }
+  .usrsub-txt h3 {
+    color: white;
+  }
+  
+  .usrsignin {
+    background-color: #383CC1;
+    width: 30%;
+    padding: 1.25rem;
+    border-radius: 1.875rem;
+    border: none;
+    color: white;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  

@@ -1,0 +1,163 @@
+.adhisadminhistory-container{
+     
+  height: 1500px;
+    background-repeat: no-repeat;
+  }
+
+  .adhisadmincontainer-history{
+    height: 4%;
+    color: white;
+    background-color: purple;
+    padding-bottom: 5%;
+    align-items: center;   
+  }
+  .adhisadminuserhishead
+  {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .adhisadmintabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1rem;
+  }
+  .adhisadmintabs button {
+    background-color:white;
+    color: gray;
+    border: none;
+    padding: 13px 150px;
+    cursor: pointer;
+  }
+  
+  .adhisadmintabs button.active {
+    background-color: #ccc;
+    border: 1px solid black;
+  }
+  .adhisadmintitle-transaction{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    margin-top: 2%;
+    padding: 0.5%;
+  }
+  .adhisadmintitle-column{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    margin-top: 2%;
+    padding: 0.5%;
+  }
+  .adhisadminid123{
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 81%;
+    color: black;
+  }
+  .adhisadminid456 {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-right: 0%;
+    margin-top:-3% ;
+  }
+  .adhisadminid789 {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-left: 82%;
+    margin-top: -3%;
+  }
+  .adhisadmintransaction-history li {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid bisque;
+    background-color:white;
+  }
+  
+  .adhisadmintransaction-history {
+    margin: 0;
+    line-height: 1.5;
+  }
+  .adhisadminpagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    position: fixed;
+    margin-left: 50%;
+  }
+  .adhisadminprevious {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-top: -4%;
+  }
+  .adhisadminnext {
+    background-color: purple;
+    border: none;
+    color:white;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: -4%;
+  }
+  .adhisadmincurrent{
+    color: blue;
+    font-size: x-large;
+    margin-top: -6px;
+  }
+  .adhisadminpagination button.active {
+    background-color: #ccc;
+  }
+  .adhisadminid111{
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 90%;
+    color: blue;
+   
+  }
+  
+  .adhisadminid222{
+    color: blue;
+    margin-right: 0%;
+    margin-top:-3.7% ;
+  }
+  
+  .adhisadminid333 {
+    color: green;
+    margin-left: 82%;
+    margin-top: -4.6%;
+  }
+  .adminprevious {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-top: -4%;
+  }
+  .adminnext {
+    background-color: purple;
+    border: none;
+    color:white;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: -4%;
+  }
+  .admincurrent{
+    color: blue;
+    font-size: x-large;
+    margin-top: -6px;
+  }
+  .adminpagination button.active {
+    background-color: #ccc;
+  }

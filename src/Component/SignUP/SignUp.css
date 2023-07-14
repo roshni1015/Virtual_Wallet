@@ -1,0 +1,125 @@
+.singupmain{
+  background-image: url('../Images/background.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+}
+#singuprow {
+  width: 100vw;
+  
+
+}
+.singuperror{
+color: red;
+margin-right: 4%;
+font-size: small;
+
+}
+.singuploginform, h1{
+  text-align: center;
+  margin-left: 26%;
+  margin-top: 13%;
+
+
+}
+.logo {
+  height: 9.375rem;
+  width: 12.5rem;
+  /* border: 0.0625rem solid black; */
+  margin-top: 3.120rem;
+  margin-left: 3.125rem;
+  background-image: url(../Images/Signup.jpg);
+  background-repeat: no-repeat;
+
+ 
+}
+.logo-userSigup{
+  background: linear-gradient(73.6deg, #07d471 2.11%, #0dc434 42.39%,#0dc434 85.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -25%;
+  margin-right: 25%;
+  font-size: x-large;
+  font-weight: 1000;
+}
+.login-txt1 {
+  height: 1.625rem;
+
+  /* border: 0.0625rem solid; */
+}
+
+.login-txt1, h1 {
+  font-size: 4rem;
+  margin-bottom: 6%;
+  margin-top: -2%;
+  color: white;
+}
+.login-txt2 {
+  height: 0.5rem;
+  /* border: 0.0625rem solid; */
+}
+.login-txt2 ,p {
+  font-size: 2rem;
+}
+.form {
+  height: 18.75rem;
+  /* border: 0.0625rem solid black; */
+}
+.singupinp1 {
+  width: 55%;
+  border-radius: 1.875rem;
+  background-color:  white;
+  padding: 1.00rem;
+  /* width: 31.25rem; */
+  border: none;
+  margin-left: 25%;
+  margin-bottom: 2.5%;
+}
+.singupeye{
+  margin-left: -50px;
+  background-color: transparent;
+  border: 0;
+}
+#sign {
+  width: 25%;
+  border-radius: 1.875rem;
+  background-color:#22CB5C;
+  padding: 1.00rem;
+  /* width: 12.5rem; */
+  border: none;
+  color: white ;
+
+  margin-left: 25%;
+  margin-top: 5%;
+
+
+}
+.singuplast-SigUp{
+  margin-bottom: 25%;
+  margin-top: 2%;
+  margin-left: 25%;
+  color: white;
+}
+
+.loginform2{
+  text-align: center;
+}
+
+#submit {
+  background-color: #CAD5E2;
+  color: black;
+  width: 30%;
+  padding: 1.25rem;
+  border-radius: 1.875rem;
+  border: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.singuptext-Login{
+  color: #22CB5C;
+}
