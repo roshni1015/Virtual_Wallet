@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  } 
+  .home-container {
+    max-width: 1900px;
+    height: 1017px;
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    padding-top: 2%;
+  }
+ 
+  .home-content-name{
+    display: inline;
+    color: white;
+  
+  }
+  .home-content-name img{
+    width: 1%;
+    margin-right: 0.5%;
+    /* margin-left: -50%; */
+    margin-top: -0.3%;
+
+    
+  }
+  .home-logo{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    padding-right: 52%;
+
+  }
+  .home-text{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-right: 4%;
+    /* margin-left:2000px; */
+
+  }
+  .home-about{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    margin-right: 4%;
+
+  }
+  .home-career{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    margin-right: 4%;
+
+  }
+  .home-contact{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    margin-right: 4%;
+
+  }
+  .Smart-payment{
+    margin-top: 15%;
+    margin-left: -65%;
+  }
+  .Smart-para{
+    color: white;
+    font-size: 100%;
+    margin-right: 55%;
+    margin-top: -5%;
+  }
+  .get-view{
+    margin-right: 60%;
+    margin-top: 2%;
+  }
+  .get-started{
+    padding-right: 9%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 9%;
+    margin-right: 7%;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+
+  }
+  .view-demo{
+    padding-right: 9%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 9%;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+
+
+
+  }
+
+  @media (max-width: 768px) {
+    .home-container {
+      height: auto;
+      padding-top: 10%;
+      background-size: cover;
+    }
+  
+    .home-content-name {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-logo {
+      padding-right: 0;
+      margin-top: 2%;
+    }
+  
+    .home-text,
+    .home-about,
+    .home-career,
+    .home-contact {
+      margin-right: 0;
+      margin-top: 3%;
+    }
+  
+    .Smart-payment {
+      margin-top: 8%;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .Smart-para {
+      margin-right: 0;
+      margin-top: 3%;
+    }
+  
+    .get-view {
+      margin-right: 0;
+      margin-top: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .get-started,
+    .view-demo {
+      padding: 2% 6%;
+      margin-bottom: 5%;
+    }
+  }

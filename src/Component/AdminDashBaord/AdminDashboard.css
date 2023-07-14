@@ -1,0 +1,475 @@
+
+/* Main Admin Container */
+.adminContainer {
+  text-align: center;
+  height: 100vh;
+  background-image: url(../Images/background.jpg);
+}
+
+.admindashhead {
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.adminbtndiv {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+
+.adminbtn1 {
+
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.adminbtn2 {
+  margin-left: 1rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.adminheadline {
+  font-size: 3rem;
+
+}
+
+.admindashclrline {
+  height: 0.3rem;
+  background-color: #9E9E9E;
+  margin-bottom: 1rem;
+}
+
+.admintransactionhisbtn {
+  margin-left: 83rem;
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.adminbtn3 {
+  margin-left: 2rem;
+  padding: 10px 20px;
+  background-color: rgb(239, 83, 83);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#admintransactionhis {
+  color: white;
+}
+
+.logoutbtn121 {
+  margin-left: 70rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.adminUserList {
+  display: flex;
+  flex-direction: row;
+  color: white;
+
+}
+
+
+/* Fund Transfer Popup */
+
+.form-group1AdFundTr {
+  margin-bottom: 20px;
+
+}
+.group1AdFundTr{
+  margin-top: 3rem;
+}
+.group1AdFundTrHeadline {
+  color: black;
+}
+.ftfirstlastname
+{
+  color: #404040; 
+  font-size: 2.3rem;
+}
+.ftempid
+{
+  color: #404040; 
+  font-size: 2rem;
+}
+.firstfundwallet
+{
+  font-size: 3rem;
+  color: #4caf50;
+}
+.form-group2AdFundTr {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.AdFundTrsend {
+  width: 6rem;
+  height: 3.2rem;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AdFundclosepop {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8rem;
+}
+
+
+/* Transaction Succesful Popup */
+
+.transactionsucc {
+  font-size: 3rem;
+  color: green;
+  margin-top: 5rem;
+}
+
+.popup-container1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content1 {
+  width: 40rem;
+  height: 45rem;
+  background-color: white;
+  padding: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 1.00rem;
+
+}
+
+.Transactionsuccpopup-container1 {
+  width: 35rem;
+  height: 45rem;
+  background-color: white;
+  padding: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 1.00rem;
+}
+
+.TrSuccessclosepop {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 14rem;
+}
+
+.transucimg
+{
+  background-image: url('../Images/trassucc.png');
+  height: 100px;
+  width: 100px;
+  margin-left: 42%;
+  margin-top: 4rem;
+}
+
+
+
+/* Logout Popup */
+
+.adminlogout-popup {
+  position: fixed;
+  top: 10%;
+  left: 70%;
+  width: 22%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  border-radius: 15px;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.adminlogout-text {
+  margin-top: -3.8rem;
+  margin-left: 1rem;
+  color: black;
+}
+
+.admincancel-logout {
+  margin-top: 20%;
+  margin-left: 40%;
+  /* margin-right: 1%; */
+  border-radius: 7px;
+  padding: 2%;
+  border: white;
+  background-color: lavender;
+}
+
+.adminconfirm-logout {
+  margin-top: 20%;
+  /* margin-left: 40%; */
+  margin-right: -35%;
+  border-radius: 7px;
+  padding: 2%;
+  border: white;
+  background-color: lavender;
+}
+
+
+/* View Balance PopUp */
+
+.walletBalancehead {
+  margin-top: 2rem;
+  color: #e45353;
+  font-size: 3rem;
+}
+.horizontalline
+{
+  margin-top: 1rem;
+  height: 0.4rem;
+  background-color: #9E9E9E;}
+.vbemlpoyeeId {
+  color: rgb(255 77 64);
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.userblc {
+  color: #09a818;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.ViewBalanceclosepop {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20rem;
+}
+
+
+/* Users History Popoup */
+
+.Historypopup-container1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Historypopup-content1 {
+  width: 90rem;
+  height: 45rem;
+  background-color: white;
+  padding: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 1.00rem;
+
+}
+
+.HistoryClosePopup {
+  width: 8rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 37rem;
+}
+
+/* Inside History Popup  */
+.adminhistory-container {
+
+  height: 1500px;
+  background-repeat: no-repeat;
+}
+
+.admincontainer-history {
+  height: 4%;
+  background-color: purple;
+  padding-bottom: 1%;
+  align-items: center;
+}
+
+.adminuserhishead {
+  font-size: 2rem;
+}
+
+.admintabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+}
+
+.admintabs button {
+  background-color: white;
+  color: gray;
+  border: none;
+  padding: 13px 150px;
+  cursor: pointer;
+}
+
+.admintabs button.active {
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+.admintitle-transaction {
+  width: 100%;
+  height: 50%;
+  background-color: blue;
+  margin-top: 2%;
+  padding: 0.5%;
+}
+
+.admintitle-column {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  margin-top: 2%;
+  padding: 0.5%;
+}
+
+.adminid123 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 81%;
+  color: black;
+}
+
+.adminid456 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  margin-right: 0%;
+  margin-top: -3%;
+}
+
+.adminid789 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  margin-left: 82%;
+  margin-top: -3%;
+}
+
+.admintransaction-history li {
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid bisque;
+  background-color: white;
+}
+
+.admintransaction-history {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.adminpagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  position: fixed;
+  margin-left: 32%;
+}
+
+.adminprevious {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-top: -4%;
+}
+
+.adminnext {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-top: -4%;
+}
+
+.admincurrent {
+  color: blue;
+  font-size: x-large;
+  margin-top: -6px;
+}
+
+.adminpagination button.active {
+  background-color: #ccc;
+}
+
+.adminid111 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 90%;
+  color: blue;
+
+
+}
+
+.adminid222 {
+  color: blue;
+  margin-right: 0%;
+  margin-top: -3.7%;
+}
+
+.adminid333 {
+  color: green;
+  margin-left: 82%;
+  margin-top: -4.6%;
+}
